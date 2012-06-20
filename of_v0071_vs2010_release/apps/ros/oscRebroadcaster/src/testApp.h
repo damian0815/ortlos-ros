@@ -3,9 +3,6 @@
 #include "ofMain.h"
 #include "ofxOsc.h"
 
-// listen on port 12345
-#define PORT 7000
-#define NUM_MSG_STRINGS 20
 
 class testApp : public ofBaseApp {
 	public:
@@ -13,6 +10,7 @@ class testApp : public ofBaseApp {
 		void setup();
 		void update();
 		void draw();
+		void exit();
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -24,14 +22,8 @@ class testApp : public ofBaseApp {
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		ofTrueTypeFont font;
 		ofxOscReceiver receiver;
-		vector<ofxOscSender*> senders;
+		vector<ofPtr<ofxOscSender> > senders;
+		string lastMessageString;
 
-		int current_msg_string;
-		string msg_strings[NUM_MSG_STRINGS];
-		float timers[NUM_MSG_STRINGS];
-
-		int mouseX, mouseY;
-		string mouseButtonState;
 };
