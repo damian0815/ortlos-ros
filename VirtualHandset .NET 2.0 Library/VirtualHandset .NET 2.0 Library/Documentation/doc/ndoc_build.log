@@ -1,0 +1,37 @@
+Memory before build: 678164
+Initializing Workspace
+Creating Help Project Resources
+Analyzing Assemblies & Merging XML Documentation
+Memory making xml: 2056276
+AssemblyLoader: Loading "C:\DEV_ROOT\Sandbox\CommunicationLib_Trunk\VirtualHandset\bin\Debug\VirtualHandset.dll".
+XmlDocCommentLoader: Loaded 'C:\DEV_ROOT\Sandbox\CommunicationLib_Trunk\VirtualHandset\bin\Debug\VirtualHandset.xml' (0,167 sec.)
+XmlDocCommentLoader: Cache 136
+Docs found : C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.xml
+XmlDocCommentLoader: Loaded 'C:\WINDOWS\Microsoft.NET\Framework\v2.0.50727\mscorlib.xml' (0,991 sec.)
+XmlDocCommentLoader: Cache 14144
+XmlDocCommentLoader: Loaded 'C:\DEV_ROOT\Sandbox\CommunicationLib_Trunk\NDoc\NDoc2-Alpha3u-fix\Configuration\Supplemental Docs\en\mscorlib.xml' (0,044 sec.)
+XmlDocCommentLoader: Cache 15166
+AssemblyLoader: Attempting to resolve "Microsoft.VisualBasic, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/Microsoft.VisualBasic/8.0.0.0__b03f5f7f11d50a3a/Microsoft.VisualBasic.dll"
+AssemblyLoader: Attempting to resolve "System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089".
+AssemblyLoader: Loaded "C:/WINDOWS/assembly/GAC_MSIL/System/2.0.0.0__b77a5c561934e089/System.dll"
+Writing namespace LogicData.VirtualHandset...
+    Wrote 1 classes.
+    Wrote 7 structures.
+    Wrote 8 enumerations.
+    Wrote 2 delegates.
+Completed VirtualHandset, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+0,235 sec.
+MakeXML : 1,657 sec.
+Determining Document Structure
+Load Docs for Structure Production: 3,761 msec.
+Building File Map: 11,898 msec.
+Structure Production: 720,292 msec.
+Initializing Documenter
+Building Table-of-Contents
+Building Topic Pages
+It took 2 seconds to make the html
+Completing Help Project Resources
+Writing documentation to output path
+Build Completed.
+The build took a total of 6 seconds

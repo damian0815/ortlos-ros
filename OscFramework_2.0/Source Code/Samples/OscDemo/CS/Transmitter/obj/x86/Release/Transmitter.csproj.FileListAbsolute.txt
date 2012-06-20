@@ -1,0 +1,7 @@
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\bin\x86\Release\Transmitter.exe
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\bin\x86\Release\Bespoke.Common.dll
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\bin\x86\Release\Bespoke.Common.Osc.dll
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\bin\x86\Release\Bespoke.Common.Osc.xml
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\bin\x86\Release\Bespoke.Common.xml
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\obj\x86\Release\ResolveAssemblyReference.cache
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Samples\OscDemo\CS\Transmitter\obj\x86\Release\Transmitter.exe

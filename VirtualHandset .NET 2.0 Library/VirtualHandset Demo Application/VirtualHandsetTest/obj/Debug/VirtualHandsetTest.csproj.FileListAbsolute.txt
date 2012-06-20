@@ -1,0 +1,28 @@
+\\VBOXSVR\damian\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\ResolveAssemblyReference.cache
+\\VBOXSVR\damian\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.frmMain.resources
+\\VBOXSVR\damian\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.Properties.Resources.resources
+\\VBOXSVR\damian\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\GenerateResource.read.1.tlog
+\\VBOXSVR\damian\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\GenerateResource.write.1.tlog
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\ResolveAssemblyReference.cache
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.frmMain.resources
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.Properties.Resources.resources
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\GenerateResource.read.1.tlog
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\GenerateResource.write.1.tlog
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\VirtualHandsetTest.exe
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\VirtualHandsetTest.pdb
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\VirtualHandset.dll
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\Communication.dll
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.exe
+F:\2.current\ortlos-graz\VirtualHandset .NET 2.0 Library (2)\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.pdb
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.exe
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.pdb
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\ResolveAssemblyReference.cache
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.frmMain.resources
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\InputBoxSample.InputBox.resources
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\VirtualHandsetTest.Properties.Resources.resources
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\GenerateResource.read.1.tlog
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\obj\Debug\GenerateResource.write.1.tlog
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\VirtualHandsetTest.exe
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\VirtualHandsetTest.pdb
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\VirtualHandset.dll
+F:\2.current\ortlos-graz\code\VirtualHandset .NET 2.0 Library\VirtualHandset Demo Application\VirtualHandsetTest\bin\Debug\Communication.dll

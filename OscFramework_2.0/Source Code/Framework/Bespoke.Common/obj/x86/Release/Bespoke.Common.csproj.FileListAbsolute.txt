@@ -1,0 +1,4 @@
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Framework\Bespoke.Common\bin\x86\Release\Bespoke.Common.XML
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Framework\Bespoke.Common\bin\x86\Release\Bespoke.Common.dll
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Framework\Bespoke.Common\obj\x86\Release\ResolveAssemblyReference.cache
+F:\2.current\ortlos-graz\code\OscFramework_2.0\Source Code\Framework\Bespoke.Common\obj\x86\Release\Bespoke.Common.dll
