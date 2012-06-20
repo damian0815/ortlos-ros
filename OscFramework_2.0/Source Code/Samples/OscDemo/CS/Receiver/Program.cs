@@ -52,7 +52,7 @@ namespace Receiver
             motorMin = new int[HANDSET_COUNT];
             motorMax = new int[HANDSET_COUNT];
 
-            String[] comPorts = { "COM3", "COM4", "COM5", "COM6", "COM7", "COM8" };
+            String[] comPorts = { "COM9", "COM4", "COM5", "COM6", "COM7", "COM8" };
             for ( int i=0; i<HANDSET_COUNT; i++ ) {
                 VirtualHandset handset = new VirtualHandset();
                 int result = handset.Connect(comPorts[i]);
