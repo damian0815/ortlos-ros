@@ -1,10 +1,10 @@
 #include "testApp.h"
 
-static const float POST_MOVE_PAUSE = 0.5f;
-static const float POST_STOP_PAUSE = 0.5f;
+static const float POST_MOVE_PAUSE = 0.25f;
+static const float POST_STOP_PAUSE = 0.1f;
 
 
-static const string HOST = "10.200.1.24";
+static const string HOST = "91.143.110.164";
 static const int PORT = 5103;
 
 //--------------------------------------------------------------
@@ -19,7 +19,7 @@ void testApp::setup(){
 	ofEnableAlphaBlending();
 	
 	//value = 0.5;
-	speed = 0.1f;
+	position = 0.1f;
 	offset = 0.5f;
 	doUpdate = true;
 	readyToSend = true;
@@ -51,7 +51,10 @@ void testApp::update(){
 }
 
 float testApp::getPos( int whichTeleskop ){
-	return 0.5f+0.5f*sinf(ofGetElapsedTimef()*speed + offset*whichTeleskop);
+	return 0.0;
+	// return fabs(sin(double(whichTeleskop)));
+	// return min(1.0f,max(0.0f,position));
+	//return 0.5f+0.5f*sinf(ofGetElapsedTimef()*position + offset*whichTeleskop);
 }
 
 
@@ -65,8 +68,9 @@ void testApp::draw(){
 	ofDrawBitmapString(buf, 10, 20);
 	ofDrawBitmapString("press M to toggle updating (currently "+ofToString(doUpdate)+")", 10, 50 );
 	//ofDrawBitmapString("press up/down to change value ("+ofToString(value)+")", 10, 65 );
-	ofDrawBitmapString("press up/down to change speed     ("+ofToString(speed)+")", 10, 65 );
-	ofDrawBitmapString("press left/right to change offset ("+ofToString(offset)+")", 10, 80 );
+	
+	ofDrawBitmapString("press up/down to change position    ("+ofToString(position)+")", 10, 65 );
+	//ofDrawBitmapString("press left/right to change offset ("+ofToString(offset)+")", 10, 80 );
 	
 	for ( int i=0; i<6; i++ )
 	{
@@ -113,13 +117,14 @@ void testApp::keyPressed(int key){
 		value = max(0.0f,value-0.05f);
 	 */
 	else if ( key == OF_KEY_UP )
-		speed += 0.05f;
+		position += 0.05f;
 	else if ( key == OF_KEY_DOWN )
-		speed -= 0.05f;
+		position -= 0.05f;
 	else if ( key == OF_KEY_LEFT )
 		offset += 0.05f;
 	else if ( key == OF_KEY_RIGHT )
 		offset -= 0.05f;
+
 }
 
 //--------------------------------------------------------------

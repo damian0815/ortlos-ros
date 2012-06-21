@@ -27,7 +27,7 @@ class testApp : public ofBaseApp {
 		ofTrueTypeFont font;
 		ofxOscSender sender;
 	//float value;
-	float speed;
+	float position;
 	float offset;
 	bool doUpdate;
 
