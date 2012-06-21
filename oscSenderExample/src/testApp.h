@@ -26,6 +26,8 @@ class testApp : public ofBaseApp {
 
 		ofTrueTypeFont font;
 		ofxOscSender sender;
+		ofxOscReceiver receiver;
+
 	//float value;
 	float speed;
 	float offset;
@@ -37,6 +39,10 @@ class testApp : public ofBaseApp {
 	bool readyToSend;
 	
 	float getPos( int whichTeleskop );
+
+	vector<ofVec2f> positions;
+	vector<bool> active;
+	vector<float> teleskopPositions;
 	
 };
 
