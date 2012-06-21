@@ -2,17 +2,15 @@
 
 #include "ofMain.h"
 #include "ofxOsc.h"
-#include "DTimer.h"
 
 
-//--------------------------------------------------------
 class testApp : public ofBaseApp {
-
 	public:
 
 		void setup();
 		void update();
 		void draw();
+		void exit();
 
 		void keyPressed(int key);
 		void keyReleased(int key);
@@ -24,27 +22,8 @@ class testApp : public ofBaseApp {
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 
-		ofTrueTypeFont font;
-		ofxOscSender sender;
 		ofxOscReceiver receiver;
+		vector<ofPtr<ofxOscSender> > senders;
+		string lastMessageString;
 
-	//float value;
-	float position;
-	float offset;
-	bool doUpdate;
-
-	void timerFired( string& timerName );
-	DTimer endTimer;
-	DTimer moveTimer;
-	bool readyToSend;
-	
-	float getPos( int whichTeleskop );
-	void updatePositions();
-	void moveTeleskopTo( int which, float pos );
-
-	vector<ofVec2f> positions;
-	vector<bool> active;
-	vector<float> teleskopPositions;
-	
 };
-
