@@ -27,9 +27,10 @@ void testApp::setup(){
 	//value = 0.5;
 	position = 0.1f;
 	offset = 0.5f;
-	doUpdate = true;
+	manual = false;
 	readyToSend = true;
-	
+	invert = false;
+
 	teleskopPositions.resize(6);
 	positions.resize(5);
 	active.resize(5);
@@ -68,7 +69,7 @@ void testApp::update(){
 
 	updatePositions();
 
-	if ( readyToSend && doUpdate )
+	if ( readyToSend )
 	{
 		readyToSend = false;
 		for ( int i=0; i<6; i++ )
@@ -178,9 +179,16 @@ void testApp::moveTeleskopTo( int which, float position )
 float testApp::getPos( int whichTeleskop ){
 	// return 0.0;
 	// return fabs(sin(double(whichTeleskop)));
-	// return min(1.0f,max(0.0f,position));
 	//return 0.5f+0.5f*sinf(ofGetElapsedTimef()*position + offset*whichTeleskop);
-	return teleskopPositions[whichTeleskop];
+	if ( manual )
+		return min(1.0f,max(0.0f,position));
+	else
+	{
+		if ( !invert )
+			return teleskopPositions[whichTeleskop];
+		else
+			return 1.0f-teleskopPositions[whichTeleskop];
+	}
 }
 
 float baseHeight = 200;
@@ -198,12 +206,14 @@ void testApp::draw(){
 	buf = "sending osc messages to " + string(HOST) + ":" + ofToString(PORT);
 	ofSetColor(ofColor::white, 255);
 	ofDrawBitmapString(buf, 10, 20);
-	ofDrawBitmapString("press M to toggle updating (currently "+ofToString(doUpdate)+")", 10, 50 );
+	ofDrawBitmapString("press M to toggle manual/auto (currently "+string(manual?"manual":"auto")+")", 10, 50 );
 	//ofDrawBitmapString("press up/down to change value ("+ofToString(value)+")", 10, 65 );
 	
 	ofDrawBitmapString("press up/down to change position    ("+ofToString(position)+")", 10, 65 );
 	//ofDrawBitmapString("press left/right to change offset ("+ofToString(offset)+")", 10, 80 );
-	
+
+	ofDrawBitmapString("press I to toggle invert (currently "+string(invert?"invert":"not invert")+")", 10, 80 );
+
 	//ofSetRectMode(OF_RECTMODE_CENTER);
 	for ( int i=0; i<6; i++ )
 	{
@@ -250,7 +260,10 @@ void testApp::timerFired( string &timerName )
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 	if ( key == 'm' || key == 'M' ){
-		doUpdate= !doUpdate;
+		manual= !manual;
+	}
+	else if ( key == 'i'|| key == 'I' ){
+		invert = !invert;
 	}
 	/*
 	else if ( key == OF_KEY_UP )

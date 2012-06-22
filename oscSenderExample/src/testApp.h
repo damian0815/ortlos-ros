@@ -31,7 +31,8 @@ class testApp : public ofBaseApp {
 	//float value;
 	float position;
 	float offset;
-	bool doUpdate;
+	bool manual;
+	bool invert;
 
 	void timerFired( string& timerName );
 	DTimer endTimer;
